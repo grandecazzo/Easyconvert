@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>_resources\easyconvert.ico</ApplicationIcon>
+    <PublishTrimmed>true</PublishTrimmed>
+  </PropertyGroup>
+      
+  <ItemGroup>
+      <Resource Include="_fonts\SHRIMP.ttf"/>
+
+      <Resource Include="_resources\*"/>
+  </ItemGroup>
+
+</Project>
